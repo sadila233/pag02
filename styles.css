@@ -11,7 +11,7 @@ body {
     background: white; /* Define o fundo branco */
 }
 .topo {
-    background: green; /* Define a cor de fundo */
+    background: rgb(182, 78, 196); /* Define a cor de fundo */
     height: 15%; /* Define altura do topo */
     text-align: center; /* Centraliza o texto */
     color: white; /* Define cor do texto */
@@ -25,7 +25,7 @@ body {
     flex: 1; /* Ocupa o espaço disponível */
 }
 .navegacao {
-    background: darkgreen; /* Define cor de fundo */
+    background: rgb(141, 99, 82); /* Define cor de fundo */
     width: 20%; /* Define largura da navegação */
     writing-mode: vertical-rl; /* Rotaciona o texto verticalmente */
     text-align: center; /* Centraliza o texto */
@@ -36,7 +36,7 @@ body {
     border: 5px solid white; /* Adiciona uma borda branca */
 }
 .conteudo {
-    background: green; /* Define cor de fundo */
+    background: rgb(196, 199, 36); /* Define cor de fundo */
     flex: 1; /* Ocupa o espaço restante */
     display: flex; /* Usa flexbox para alinhamento interno */
     align-items: center; /* Alinha itens verticalmente */
@@ -45,7 +45,7 @@ body {
     border: 5px solid white; /* Adiciona uma borda branca */
 }
 .rodape {
-    background: green; /* Define cor de fundo */
+    background: rgb(161, 36, 88); /* Define cor de fundo */
     height: 10%; /* Define altura do rodapé */
     text-align: center; /* Centraliza o texto */
     color: white; /* Define cor do texto */
