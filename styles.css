@@ -1,0 +1,56 @@
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho dos elementos */
+}
+body {
+    display: flex; /* Usa flexbox para estruturar os elementos */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    height: 100vh; /* Define altura total da tela */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background: white; /* Define o fundo branco */
+}
+.topo {
+    background: green; /* Define a cor de fundo */
+    height: 15%; /* Define altura do topo */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.container {
+    display: flex; /* Usa flexbox para estruturar navegação e conteúdo */
+    flex: 1; /* Ocupa o espaço disponível */
+}
+.navegacao {
+    background: darkgreen; /* Define cor de fundo */
+    width: 20%; /* Define largura da navegação */
+    writing-mode: vertical-rl; /* Rotaciona o texto verticalmente */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.conteudo {
+    background: green; /* Define cor de fundo */
+    flex: 1; /* Ocupa o espaço restante */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    color: white; /* Define cor do texto */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.rodape {
+    background: green; /* Define cor de fundo */
+    height: 10%; /* Define altura do rodapé */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
